@@ -1,0 +1,537 @@
+﻿{
+  "prestations": [
+    {
+      "type": "rail",
+      "price": {
+        "value": 134,
+        "currency": "EUR",
+        "supplier_value": 134,
+        "fee": 0
+      },
+      "details": {
+        "trips": [
+          {
+            "itinerary": {
+              "origin": {
+                "datetime": "2019-11-22T06:43:00Z",
+                "location": {
+                  "address": { "city": "Paris Gare du Nord", "country": "FR" },
+                  "code": "4922",
+                  "coordinates": {
+                    "latitude": 48.880185,
+                    "longitude": 2.355151
+                  },
+                  "name": "Paris Gare du Nord",
+                  "tz": "Europe/Paris"
+                }
+              },
+              "destination": {
+                "datetime": "2019-11-22T09:00:00Z",
+                "location": {
+                  "address": { "city": "London St-Pancras", "country": "GB" },
+                  "code": "5892",
+                  "coordinates": {
+                    "latitude": 51.531921,
+                    "longitude": -0.126361
+                  },
+                  "name": "London St-Pancras",
+                  "tz": "Europe/London"
+                }
+              }
+            },
+            "co2": { "unit": "KG", "emission": 5, "sum_status": "TOTAL" },
+            "segments": [
+              {
+                "id": "SEG-V2-19-11-22-PARIS-NORD-LONDRES-ST-PANCRAS",
+                "itinerary": {
+                  "origin": {
+                    "datetime": "2019-11-22T06:43:00Z",
+                    "location": {
+                      "address": {
+                        "city": "Paris",
+                        "country": "France",
+                        "country_code": "FR",
+                        "postal_code": "75010",
+                        "state": "Île-de-France",
+                        "street_name": "Rue de Dunkerque"
+                      },
+                      "code": "4922",
+                      "coordinates": {
+                        "latitude": 48.880185,
+                        "longitude": 2.355151
+                      },
+                      "name": "Paris Gare du Nord",
+                      "tz": "Europe/Paris"
+                    }
+                  },
+                  "destination": {
+                    "datetime": "2019-11-22T09:00:00Z",
+                    "location": {
+                      "address": {
+                        "city": "Londres",
+                        "country": "Royaume-Uni",
+                        "country_code": "GB",
+                        "postal_code": "N1C 4QP",
+                        "state": "England",
+                        "street_name": "Euston Road"
+                      },
+                      "code": "5892",
+                      "coordinates": {
+                        "latitude": 51.531921,
+                        "longitude": -0.126361
+                      },
+                      "name": "London St-Pancras",
+                      "tz": "Europe/London"
+                    }
+                  },
+                  "carrier": { "code": "ES", "name": "ES" }
+                },
+                "duration": 8220,
+                "train_details": {
+                  "code": "EURO",
+                  "name": "EURO",
+                  "train_number": 9009
+                },
+                "booking_type": "MANDATORY",
+                "onboard_services": [
+                  { "code": "SHAN", "name": "Personne à mobilité réduite" },
+                  { "code": "SRPS", "name": "Repas à la place" }
+                ],
+                "cabin_class": { "code": "1", "name": "1st Class" },
+                "seat": { "carriage": "016", "number": "015" }
+              }
+            ],
+            "ticket_information": {
+              "price_category": "STANDARD PREMIER",
+              "refundable": false,
+              "exchangeable": true,
+              "conditions": [
+                {
+                  "code": "ECH_AV_DEP_50_PAI_DIFF",
+                  "label": "Billet échangeable avant le départ avec une retenue de 50 &euro; par trajet et par personne ainsi que le paiement de la différence de prix entre le tarif initial échangé et le nouveau."
+                },
+                { "code": "NO_REMB", "label": "Billet non remboursable." }
+              ],
+              "passengers": [
+                {
+                  "uid": "pouletxart",
+                  "title": "MR",
+                  "last_name": "Poulet",
+                  "first_name": "Arthur",
+                  "birthdate": "1980-01-01",
+                  "gender": "M",
+                  "email": "arthur@travelplanet.fr",
+                  "phone": "+33972100590",
+                  "_streetName": "7 Boulevard Louis XIV",
+                  "_streetName2": "",
+                  "_city": "Lille",
+                  "_postalCode": "59800",
+                  "_country": "France",
+                  "_countryCode": "FR",
+                  "_state": "FR",
+                  "discount_code": "",
+                  "fare_profile_codes": ["PLIB", "CFQ1"],
+                  "age": 39,
+                  "id": "_:2c37e604-7663-4c72-8d8b-e184b6b30995",
+                  "passenger_index": 1,
+                  "price_category": "STANDARD PREMIER",
+                  "conditions": [
+                    {
+                      "code": "ECH_AV_DEP_50_PAI_DIFF",
+                      "label": "Billet échangeable avant le départ avec une retenue de 50 &euro; par trajet et par personne ainsi que le paiement de la différence de prix entre le tarif initial échangé et le nouveau."
+                    },
+                    { "code": "NO_REMB", "label": "Billet non remboursable." }
+                  ],
+                  "segments_conditions": [
+                    {
+                      "segment_id": "SEG-V2-19-11-22-PARIS-NORD-LONDRES-ST-PANCRAS",
+                      "conditions": [
+                        {
+                          "code": "ECH_AV_DEP_50_PAI_DIFF",
+                          "label": "Billet échangeable avant le départ avec une retenue de 50 &euro; par trajet et par personne ainsi que le paiement de la différence de prix entre le tarif initial échangé et le nouveau."
+                        },
+                        {
+                          "code": "NO_REMB",
+                          "label": "Billet non remboursable."
+                        }
+                      ]
+                    }
+                  ],
+                  "fare_profile_codes_available": ["NONE"],
+                  "fare_profile_labels_available": [
+                    "Place assise distincte payante"
+                  ],
+                  "fare_profile_codes_confirmed": [],
+                  "fare_profile_labels_confirmed": [],
+                  "price": {
+                    "supplier_value": 134,
+                    "currency": "EUR",
+                    "value": 134
+                  }
+                }
+              ]
+            },
+            "is_out_of_policy": false,
+            "duration": 8220
+          }
+        ],
+        "itineraries": [
+          {
+            "origin": {
+              "datetime": "2019-11-22T06:43:00Z",
+              "location": {
+                "address": { "city": "Paris Gare du Nord", "country": "FR" },
+                "code": "4922",
+                "coordinates": { "latitude": 48.880185, "longitude": 2.355151 },
+                "name": "Paris Gare du Nord",
+                "tz": "Europe/Paris"
+              }
+            },
+            "destination": {
+              "datetime": "2019-11-22T09:00:00Z",
+              "location": {
+                "address": { "city": "London St-Pancras", "country": "GB" },
+                "code": "5892",
+                "coordinates": {
+                  "latitude": 51.531921,
+                  "longitude": -0.126361
+                },
+                "name": "London St-Pancras",
+                "tz": "Europe/London"
+              }
+            }
+          }
+        ],
+        "segment": {
+          "supplier_infos": {
+            "pao": {
+              "cookie": [
+                "PAO_city=LILLE-INT1; path=/",
+                "PAO_dc=LIL_INT; path=/; domain=.vsct.fr"
+              ],
+              "correlation_id": "pouletxart-1572515920077"
+            },
+            "call_id": "pouletxart-1572515920077",
+            "benerail": {},
+            "booking_infos": {
+              "supplier_id": "CI9PZQ",
+              "additional_infos": {
+                "pao": {
+                  "cookie": [
+                    "PAO_city=LILLE-INT1; path=/",
+                    "PAO_dc=LIL_INT; path=/; domain=.vsct.fr"
+                  ],
+                  "correlation_id": "pouletxart-1572515920077",
+                  "after_sales_id": null
+                },
+                "passenger_uid": "pouletxart",
+                "passenger_data": {
+                  "uid": "pouletxart",
+                  "first_name": "Arthur",
+                  "last_name": "Poulet"
+                },
+                "passenger": 1,
+                "items": [
+                  {
+                    "ticket_kind": "DEMATERIALIZED",
+                    "id": "18b76ad6-9e7f-4a37-b816-133409f1ec5d",
+                    "seats": [
+                      {
+                        "segment": "SEG-V2-19-11-22-PARIS-NORD-LONDRES-ST-PANCRAS",
+                        "trip": 0,
+                        "passenger": 1,
+                        "seat": {
+                          "carriage": "016",
+                          "number": "015",
+                          "passenger": "_:1855013d-39b5-491c-a34c-68c764796caa"
+                        }
+                      }
+                    ],
+                    "passenger": 1,
+                    "expiry_date": "2019-11-02T06:43:00.000Z",
+                    "tickets": [],
+                    "price": { "value": 134, "currency": "EUR" },
+                    "segments": [
+                      {
+                        "id": "SEG-V2-19-11-22-PARIS-NORD-LONDRES-ST-PANCRAS",
+                        "_id": "_:e8359da2-9af7-433e-9017-119533f0246a",
+                        "itinerary": {
+                          "origin": {
+                            "datetime": "2019-11-22T06:43:00Z",
+                            "location": {
+                              "address": {
+                                "city": "Paris",
+                                "country": "France",
+                                "country_code": "FR",
+                                "postal_code": "75010",
+                                "state": "Île-de-France",
+                                "street_name": "Rue de Dunkerque"
+                              },
+                              "code": "4922",
+                              "coordinates": {
+                                "latitude": 48.880185,
+                                "longitude": 2.355151
+                              },
+                              "name": "Paris Gare du Nord",
+                              "tz": "Europe/Paris"
+                            }
+                          },
+                          "destination": {
+                            "datetime": "2019-11-22T09:00:00Z",
+                            "location": {
+                              "address": {
+                                "city": "Londres",
+                                "country": "Royaume-Uni",
+                                "country_code": "GB",
+                                "postal_code": "N1C 4QP",
+                                "state": "England",
+                                "street_name": "Euston Road"
+                              },
+                              "code": "5892",
+                              "coordinates": {
+                                "latitude": 51.531921,
+                                "longitude": -0.126361
+                              },
+                              "name": "London St-Pancras",
+                              "tz": "Europe/London"
+                            }
+                          },
+                          "carrier": { "code": "ES", "name": "ES" }
+                        },
+                        "duration": 8220,
+                        "train_details": {
+                          "code": "EURO",
+                          "name": "EURO",
+                          "train_number": 9009
+                        },
+                        "co2": { "unit": "KG", "emission": 5 }
+                      }
+                    ]
+                  }
+                ],
+                "price": {
+                  "value": 134,
+                  "currency": "EUR",
+                  "supplier_value": 134
+                },
+                "seats": [
+                  {
+                    "segment": "SEG-V2-19-11-22-PARIS-NORD-LONDRES-ST-PANCRAS",
+                    "trip": 0,
+                    "passenger": 1,
+                    "seat": {
+                      "carriage": "016",
+                      "number": "015",
+                      "passenger": "_:1855013d-39b5-491c-a34c-68c764796caa"
+                    }
+                  }
+                ]
+              },
+              "operator_ids": [null]
+            }
+          }
+        }
+      },
+      "supplier": "pao"
+    }
+  ],
+  "total_price": {
+    "currency": "EUR",
+    "supplier_value": 134,
+    "value": 134,
+    "fee": 0,
+    "markup": 0
+  },
+  "traveller": {
+    "uid": "pouletxart",
+    "last_name": "Poulet",
+    "first_name": "Arthur",
+    "email": "arthur@travelplanet.fr"
+  },
+  "travellers": [
+    {
+      "uid": "pouletxart",
+      "last_name": "Poulet",
+      "first_name": "Arthur",
+      "email": "arthur@travelplanet.fr"
+    }
+  ],
+  "site_id": "Q46X",
+  "status": { "code": "CONFIRMED", "name": "Validée" },
+  "insertion_date": "2019-10-31T10:24:12.874Z",
+  "end_date": "2019-11-02T06:43:00.000Z",
+  "creation_date": "2019-10-31T09:58:49.465Z",
+  "session_id": "1869fd50-fbc1-11e9-8c81-b5740d0b19ab",
+  "arranger": {
+    "uid": "pouletxart",
+    "first_name": "Arthur",
+    "last_name": "Poulet"
+  },
+  "is_demo": true,
+  "departure_date": "2019-11-22T06:43:00Z",
+  "trip": {
+    "departure_date": "2019-11-22",
+    "return_date": "2019-11-22",
+    "origin": { "country_code": "FR" },
+    "destination": { "country_code": "GB" }
+  },
+  "fees": [],
+  "prestations_uuid": "04f47710-fbc5-11e9-b708-af9ca3960ef8",
+  "prestations_options": {
+    "id": "/sales/railTransportationProposals/283bf2d1-ddc1-450a-86c5-e949a968d8f0-16",
+    "seat_preferences": {},
+    "seat_reservations": [],
+    "ancillaries": []
+  },
+  "uuid": "0a0f8870-fbc5-11e9-b3a0-91968eeea7f5",
+  "parent_uuid": "98d2bba0-fbc4-11e9-b3a0-91968eeea7f5",
+  "tp_id": "ACFIT",
+  "supplier": "pao",
+  "type": "rail",
+  "supplier_id": "CI9PZQ",
+  "additional_infos": {
+    "pao": {
+      "cookie": [
+        "PAO_city=LILLE-INT1; path=/",
+        "PAO_dc=LIL_INT; path=/; domain=.vsct.fr"
+      ],
+      "correlation_id": "pouletxart-1572515920077",
+      "after_sales_id": null
+    },
+    "passenger_uid": "pouletxart",
+    "passenger_data": {
+      "uid": "pouletxart",
+      "first_name": "Arthur",
+      "last_name": "Poulet"
+    },
+    "passenger": 1,
+    "items": [
+      {
+        "ticket_kind": "DEMATERIALIZED",
+        "id": "18b76ad6-9e7f-4a37-b816-133409f1ec5d",
+        "seats": [
+          {
+            "segment": "SEG-V2-19-11-22-PARIS-NORD-LONDRES-ST-PANCRAS",
+            "trip": 0,
+            "passenger": 1,
+            "seat": {
+              "carriage": "016",
+              "number": "015",
+              "passenger": "_:1855013d-39b5-491c-a34c-68c764796caa"
+            }
+          }
+        ],
+        "passenger": 1,
+        "expiry_date": "2019-11-02T06:43:00.000Z",
+        "tickets": [
+          {
+            "tcn": "032261434",
+            "code": "IZ",
+            "printable": true,
+            "price": { "value": 134, "currency": "EUR" },
+            "segments": ["SEG-V2-19-11-22-PARIS-NORD-LONDRES-ST-PANCRAS"]
+          }
+        ],
+        "price": { "value": 134, "currency": "EUR" },
+        "segments": [
+          {
+            "id": "SEG-V2-19-11-22-PARIS-NORD-LONDRES-ST-PANCRAS",
+            "_id": "_:e8359da2-9af7-433e-9017-119533f0246a",
+            "itinerary": {
+              "origin": {
+                "datetime": "2019-11-22T06:43:00Z",
+                "location": {
+                  "address": {
+                    "city": "Paris",
+                    "country": "France",
+                    "country_code": "FR",
+                    "postal_code": "75010",
+                    "state": "Île-de-France",
+                    "street_name": "Rue de Dunkerque"
+                  },
+                  "code": "4922",
+                  "coordinates": {
+                    "latitude": 48.880185,
+                    "longitude": 2.355151
+                  },
+                  "name": "Paris Gare du Nord",
+                  "tz": "Europe/Paris"
+                }
+              },
+              "destination": {
+                "datetime": "2019-11-22T09:00:00Z",
+                "location": {
+                  "address": {
+                    "city": "Londres",
+                    "country": "Royaume-Uni",
+                    "country_code": "GB",
+                    "postal_code": "N1C 4QP",
+                    "state": "England",
+                    "street_name": "Euston Road"
+                  },
+                  "code": "5892",
+                  "coordinates": {
+                    "latitude": 51.531921,
+                    "longitude": -0.126361
+                  },
+                  "name": "London St-Pancras",
+                  "tz": "Europe/London"
+                }
+              },
+              "carrier": { "code": "ES", "name": "ES" }
+            },
+            "duration": 8220,
+            "train_details": {
+              "code": "EURO",
+              "name": "EURO",
+              "train_number": 9009
+            },
+            "co2": { "unit": "KG", "emission": 5 }
+          }
+        ],
+        "ref": "SBZMEE",
+        "ref_creation_date": "2019-10-31"
+      }
+    ],
+    "price": { "value": 134, "currency": "EUR" },
+    "seats": [
+      {
+        "segment": "SEG-V2-19-11-22-PARIS-NORD-LONDRES-ST-PANCRAS",
+        "trip": 0,
+        "passenger": 1,
+        "seat": {
+          "carriage": "016",
+          "number": "015",
+          "passenger": "_:1855013d-39b5-491c-a34c-68c764796caa"
+        }
+      }
+    ]
+  },
+  "is_prebooked": true,
+  "is_option": true,
+  "approver": {
+    "uid": "salanxxcdr",
+    "civility": "MR",
+    "first_name": "Cedric",
+    "last_name": "Salaun",
+    "phone": "146655997"
+  },
+  "operator_ids": ["SBZMEE"],
+  "cancellation_fee": {
+    "cancellable": false,
+    "charged": false,
+    "fee": { "value": 134, "currency": "EUR" },
+    "details": {
+      "cancellable": false,
+      "tickets": [
+        {
+          "tcn": "032261434",
+          "code": "IZ",
+          "price": { "value": 134, "currency": "EUR" },
+          "fee": { "value": 134, "currency": "EUR" }
+        }
+      ]
+    },
+    "expiry_date": "2019-10-31T11:24:10.959Z"
+  }
+}

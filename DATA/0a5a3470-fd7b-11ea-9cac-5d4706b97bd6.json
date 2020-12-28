@@ -1,0 +1,323 @@
+﻿{
+  "prestations": [
+    {
+      "type": "air",
+      "price": {
+        "value": 115.99,
+        "currency": "EUR",
+        "markup": 9.77,
+        "supplier_value": 106.22,
+        "fee": 0
+      },
+      "details": {
+        "trips": [
+          {
+            "itinerary": {
+              "origin": {
+                "datetime": "2020-10-06T05:00:00Z",
+                "location": {
+                  "address": {
+                    "city": "Edinburgh",
+                    "city_code": "EDI",
+                    "country": "UK",
+                    "country_code": "GB"
+                  },
+                  "code": "EDI",
+                  "coordinates": { "latitude": 55.95, "longitude": -3.3725 },
+                  "name": "Edinburgh Airport",
+                  "tz": "Europe/London"
+                }
+              },
+              "destination": {
+                "datetime": "2020-10-06T06:35:00Z",
+                "location": {
+                  "address": {
+                    "city": "London",
+                    "city_code": "LON",
+                    "country": "UK",
+                    "country_code": "GB"
+                  },
+                  "code": "LGW",
+                  "coordinates": {
+                    "latitude": 51.15609,
+                    "longitude": -0.17818
+                  },
+                  "name": "London Gatwick Airport",
+                  "tz": "Europe/London"
+                }
+              },
+              "duration": 5700
+            },
+            "segments": [
+              {
+                "itinerary": {
+                  "origin": {
+                    "datetime": "2020-10-06T05:00:00Z",
+                    "location": {
+                      "address": {
+                        "city": "Edinburgh",
+                        "city_code": "EDI",
+                        "country": "UK",
+                        "country_code": "GB"
+                      },
+                      "code": "EDI",
+                      "coordinates": {
+                        "latitude": 55.95,
+                        "longitude": -3.3725
+                      },
+                      "name": "Edinburgh Airport",
+                      "tz": "Europe/London"
+                    }
+                  },
+                  "destination": {
+                    "datetime": "2020-10-06T06:35:00Z",
+                    "location": {
+                      "address": {
+                        "city": "London",
+                        "city_code": "LON",
+                        "country": "UK",
+                        "country_code": "GB"
+                      },
+                      "code": "LGW",
+                      "coordinates": {
+                        "latitude": 51.15609,
+                        "longitude": -0.17818
+                      },
+                      "name": "London Gatwick Airport",
+                      "tz": "Europe/London"
+                    }
+                  }
+                },
+                "duration": 5700,
+                "flight_number": "800",
+                "airline_id": "U2",
+                "airline_name": "easyJet",
+                "operating_id": "U2",
+                "operating_name": "easyJet",
+                "cabin_class": "economy",
+                "fare": { "fare_name": "Flexible" },
+                "flight_leg": 0,
+                "optional_services": { "baggage": [], "seat": [] },
+                "segment_id": "U2800",
+                "id": "2020-10-06T05:00:00Z800",
+                "segment_key": "2020-10-06T05:00:00Z800",
+                "supplier_infos": [
+                  {
+                    "owner": "ezy",
+                    "offer_id": "M1YHQ599RWFHBS79",
+                    "group_id": "LRL6J1EF5F74SFOF",
+                    "flexibility": "flex",
+                    "class": "economy",
+                    "routing_id": "E2W84WSYCN4YELH1",
+                    "direction": 0,
+                    "call_id": "intgratser-1600851450046",
+                    "supplier": "tf",
+                    "order": { "order_id": "E2F9TMURH" },
+                    "price": { "currency": "GBP", "value": 91.99 }
+                  }
+                ],
+                "service_class": "economy"
+              }
+            ],
+            "duration": 5700,
+            "flight_leg": 0,
+            "ticket_information": {
+              "price_category": "economy",
+              "refundable": true,
+              "exchangeable": true,
+              "conditions": [
+                {
+                  "label": "Our FLEXI fares give you flexibility, lots of added extras and save you time. Please note the change rules for this fare have recently changed. Here’s what’s included.\n\t"
+                },
+                {
+                  "label": "\tUnlimited free changes within a 3 day window (1 day before to 1 day after original travel date)\n\t"
+                },
+                { "label": "\t1 x 23kg hold baggage\n\t" },
+                { "label": "\t1 x cabin luggage\n\t" },
+                { "label": "\t1 x additional small cabin luggage\n\t" },
+                { "label": "\tFree up front seat\n\t" },
+                { "label": "\tFree fast track security\n\t" },
+                { "label": "\tSpeedy bag drop and boarding\n\t" },
+                {
+                  "label": "\t£7.50 in flight food and drinks voucher\n\thttp://www.easyjet.com"
+                }
+              ],
+              "travel_class": "economy",
+              "flexibility": "flex",
+              "fare_name": "Flexible"
+            },
+            "airline_id": "U2",
+            "airline_name": "easyJet"
+          }
+        ],
+        "supplier_id": "E2F9TMURH",
+        "is_lowcost": true,
+        "offer_prices": [
+          {
+            "price": {
+              "total": { "value": 106.22, "currency": "EUR" },
+              "base": { "value": 0, "currency": "NOCURR" },
+              "taxes": { "value": 0, "currency": "NOCURR" },
+              "old_price": { "currency": "GBP", "value": 91.99 }
+            },
+            "passengers": [
+              {
+                "uid": "intgratser",
+                "last_name": "Intégration",
+                "first_name": "Service",
+                "birthdate": "1980-06-16"
+              }
+            ],
+            "traveler_references": "intgratser"
+          }
+        ]
+      },
+      "ancillaries": [],
+      "supplier": "tf",
+      "fees": [
+        {
+          "channel": "on",
+          "action": "create",
+          "type": "air",
+          "id": "lowcost",
+          "price": { "currency": "EUR", "fee": 0 },
+          "details": { "taxes": {} }
+        }
+      ]
+    }
+  ],
+  "total_price": {
+    "currency": "EUR",
+    "supplier_value": 106.22,
+    "value": 115.99,
+    "fee": 0,
+    "markup": 9.77
+  },
+  "traveller": {
+    "uid": "intgratser",
+    "last_name": "Intégration",
+    "first_name": "Service",
+    "email": "integration@my-travelplanet.com"
+  },
+  "travellers": [
+    {
+      "uid": "intgratser",
+      "last_name": "Intégration",
+      "first_name": "Service",
+      "email": "integration@my-travelplanet.com"
+    }
+  ],
+  "site_id": "FR19",
+  "status": { "code": "CONFIRMED", "name": "Validée" },
+  "insertion_date": "2020-09-23T09:00:36.164Z",
+  "end_date": "2020-09-23T09:24:06.386Z",
+  "creation_date": "2020-09-23T08:59:01.837Z",
+  "session_id": "5f7deab0-fd75-11ea-94c5-950999f4a3d3",
+  "arranger": {
+    "uid": "intgratser",
+    "first_name": "Service",
+    "last_name": "Intégration"
+  },
+  "departure_date": "2020-10-06T05:00:00Z",
+  "trip": {
+    "departure_date": "2020-10-06",
+    "return_date": "2020-10-06",
+    "origin": { "country_code": "GB" },
+    "destination": { "country_code": "GB" }
+  },
+  "fees": [
+    {
+      "channel": "on",
+      "action": "create",
+      "type": "air",
+      "id": "lowcost",
+      "price": { "currency": "EUR", "fee": 0 },
+      "details": { "taxes": {} }
+    }
+  ],
+  "prestations_uuid": "fd1fab50-fd7a-11ea-b209-3f5622470e6c",
+  "prestations_options": { "id": "M1YHQ599RWFHBS79", "ancillaries": [] },
+  "uuid": "0a5a3470-fd7b-11ea-9cac-5d4706b97bd6",
+  "parent_uuid": "0665c8c0-fd7b-11ea-9cac-5d4706b97bd6",
+  "tp_id": "ACLQO",
+  "supplier": "tf",
+  "supplier_id": "E2F9TMURH",
+  "mop": { "mop_id": "MOP-AAAM6", "type": "amex" },
+  "type": "air",
+  "actions": {
+    "creation": {
+      "timestamp": "2020-09-23T08:59:01.837Z",
+      "user_id": "intgratser",
+      "first_name": "Service",
+      "last_name": "Intégration"
+    },
+    "request_approval": {
+      "timestamp": "2020-09-23T09:00:22.565Z",
+      "user_id": "intgratser",
+      "first_name": "Service",
+      "last_name": "Intégration"
+    }
+  },
+  "additional_infos": {
+    "status": "Succeeded",
+    "card_verification_required": null,
+    "order_id": "E2F9TMURH",
+    "supplier_id": "7MI0TP0",
+    "items": [],
+    "tickets": [
+      {
+        "operator_id": "7MI0TP0",
+        "ticket_number": "E2F9TMURH",
+        "emission_date": "2020-09-23T09:00:36.161Z",
+        "traveller": {
+          "uid": "intgratser",
+          "last_name": "Intégration",
+          "first_name": "Service",
+          "email": "integration@my-travelplanet.com"
+        },
+        "segments": [
+          {
+            "segment_id": "2020-10-06T05:00:00Z800",
+            "origin": "EDI",
+            "destination": "LGW"
+          }
+        ],
+        "price": { "supplier_value": 115.99, "currency": "EUR" },
+        "skip_invoice": false
+      }
+    ]
+  },
+  "is_prebooked": false,
+  "is_option": true,
+  "approver": {
+    "uid": "tipyxxxliz",
+    "civility": "MRS",
+    "first_name": "Liz",
+    "last_name": "Tipy",
+    "phone": "612345678"
+  },
+  "operator_ids": ["7MI0TP0"],
+  "tickets": [
+    {
+      "status": "CONFIRMED",
+      "operator_id": "7MI0TP0",
+      "ticket_number": "E2F9TMURH",
+      "emission_date": "2020-09-23T09:00:36.161Z",
+      "traveller": {
+        "uid": "intgratser",
+        "last_name": "Intégration",
+        "first_name": "Service",
+        "email": "integration@my-travelplanet.com"
+      },
+      "segments": [
+        {
+          "segment_id": "2020-10-06T05:00:00Z800",
+          "origin": "EDI",
+          "destination": "LGW"
+        }
+      ],
+      "price": { "supplier_value": 115.99, "currency": "EUR" },
+      "skip_invoice": false
+    }
+  ]
+}
